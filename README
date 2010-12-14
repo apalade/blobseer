@@ -1,10 +1,12 @@
 BlobSeer Dynamic Deployment module. 
 
 Information on BlobSeer:
-http://blobseer.gforge.inria.fr/doku.php
+- http://blobseer.gforge.inria.fr/doku.php
 
 Information on the module:
-doc/ folder in this repo
+- doc/ folder in this repo
+- architecture and interaction overview: http://goo.gl/mDS3k (the purple area is
+the module)
 
 Notes:
 - src/ddfilter/ is not part of the actual module, however this filter was
