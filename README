@@ -5,3 +5,13 @@ http://blobseer.gforge.inria.fr/doku.php
 
 Information on the module:
 doc/ folder in this repo
+
+Notes:
+- src/ddfilter/ is not part of the actual module, however this filter was
+developed so that integration with MonALISA (http://monalisa.caltech.edu) was
+possible. More information on the MonALISA's website.
+- the module is dependent on Boost C++ libraries, SOCI library for PostgreSQL 
+database connection and, of course, BlobSeer
+- "make leaks" under each subdirectory of src/ will check for memory leaks
+- "make test" under each subdirectory of src/ will run unit tests
+- "make" under src/ will compile everything (beware of dependencies)
